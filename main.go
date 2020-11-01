@@ -7,5 +7,6 @@ func main() {
 		"red":  "#001200",
 		"blue": "#562255",
 	}
-	fmt.Println(colors)
+	colors["red"] = "#000000"
+	fmt.Println(colors["red"])
 }
